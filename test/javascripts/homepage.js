@@ -1,5 +1,5 @@
-casper.test.begin('Homepage', 5, function suite(test) {
-  casper.start("http://localhost:3000", function() {
+casper.test.begin('Homepage', 1, function suite(test) {
+  casper.start("http://0.0.0.0:3000", function() {
     test.assertTitle("Ruby on Rails: Welcome aboard", "title is the one expected");
   });
 
